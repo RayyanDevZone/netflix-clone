@@ -1,0 +1,14 @@
+.card{
+    display: flex;
+    margin: .8rem;
+    height: 20rem;
+    cursor: pointer;
+    transition: transform 0.5s;
+    
+    &:hover{
+        transform: translateY(-10px) scale(1.1);
+    }
+}
+#img{
+    height: 200px;
+}
